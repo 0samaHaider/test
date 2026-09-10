@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Practical digital solutions for small businesses and individuals in Milan, Italy.">
+  <title>NexaDigital — Practical Digital Solutions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f5f3ee;color:#171717;font-family:"DM Sans",sans-serif;line-height:1.55}a{text-decoration:none;color:inherit}button,input,textarea,select{font:inherit}.container{width:min(1160px,calc(100% - 40px));margin:auto}.site-header{position:sticky;top:0;z-index:20;background:rgba(245,243,238,.88);backdrop-filter:blur(14px);border-bottom:1px solid #dedbd3}.nav{height:76px;display:flex;align-items:center;justify-content:space-between}.logo{font-family:"Space Grotesk";font-weight:700;font-size:20px;display:flex;align-items:center;gap:10px}.logo span{display:grid;place-items:center;width:34px;height:34px;border-radius:9px;background:#171717;color:#fff}.nav-links{display:flex;gap:30px;font-size:14px;color:#555}.nav-links a:hover{color:#111}.nav-cta{font-size:14px;font-weight:700}.nav-cta span{margin-left:7px}.menu-btn{display:none;border:0;background:none;font-size:24px}.hero{overflow:hidden;background:#f5f3ee}.hero-grid{min-height:680px;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:50px;padding:80px 0}.eyebrow{font-size:11px;letter-spacing:.16em;font-weight:700;color:#73716c;margin-bottom:22px}.eyebrow span{display:inline-block;width:7px;height:7px;border-radius:50%;background:#c8ff39;margin-right:8px}.hero h1,h2{font-family:"Space Grotesk";line-height:1.02;letter-spacing:-.045em;margin:0}.hero h1{font-size:clamp(48px,6vw,82px);max-width:730px}.hero h1 em,h2 em{font-style:normal;color:#596600}.hero-text{font-size:18px;max-width:610px;color:#5e5c57;margin:28px 0}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;gap:13px;border-radius:999px;padding:14px 21px;font-weight:700;font-size:14px;border:1px solid transparent;cursor:pointer}.btn-primary{background:#171717;color:#fff}.btn-primary:hover{transform:translateY(-2px)}.btn-secondary{border-color:#c9c6bd}.btn-light{background:#fff;color:#171717}.hero-note{display:flex;align-items:center;gap:13px;margin-top:45px;font-size:12px;color:#777}.hero-note p{margin:0}.avatar-stack{display:flex}.avatar-stack i{width:30px;height:30px;border-radius:50%;border:2px solid #f5f3ee;background:#bbb}.avatar-stack i:nth-child(2){margin-left:-8px;background:#777}.avatar-stack i:nth-child(3){margin-left:-8px;background:#333}.hero-visual{min-height:470px;display:grid;place-items:center;position:relative}.orb{position:absolute;border-radius:50%;filter:blur(1px)}.orb-one{width:390px;height:390px;background:#dfffa4;right:5%;top:10%}.orb-two{width:150px;height:150px;background:#b9b5ff;left:4%;bottom:6%}.dashboard-card{position:relative;width:min(460px,90%);background:#171717;color:#fff;border-radius:28px;padding:25px;box-shadow:0 35px 80px rgba(0,0,0,.2);transform:rotate(3deg)}.dash-top{display:flex;align-items:center;gap:10px;color:#999;font-size:10px}.dash-top>span:last-child{margin-left:auto}.dot{width:8px;height:8px;background:#c8ff39;border-radius:50%}.mini-label{letter-spacing:.14em}.metric-row{display:grid;grid-template-columns:1fr 1fr;gap:25px;margin-top:35px}.metric-row small{color:#999;font-size:9px;letter-spacing:.1em}.metric-row strong{display:block;font:700 30px "Space Grotesk";margin:5px 0 10px}.line{height:3px;background:#353535;border-radius:5px}.line b{display:block;width:70%;height:100%;background:#c8ff39;border-radius:5px}.metric-row>div+div .line b{width:53%}.chart{margin-top:35px}.bars{height:130px;display:flex;align-items:end;gap:7px}.bars i{display:block;flex:1;background:#393939;border-radius:5px 5px 0 0}.bars i:nth-child(1){height:30%}.bars i:nth-child(2){height:45%}.bars i:nth-child(3){height:35%}.bars i:nth-child(4){height:55%}.bars i:nth-child(5){height:48%}.bars i:nth-child(6){height:70%}.bars i:nth-child(7){height:58%}.bars i:nth-child(8){height:82%}.bars i:nth-child(9){height:70%}.bars i:nth-child(10){height:94%;background:#c8ff39}.bars i:nth-child(11){height:80%}.bars i:nth-child(12){height:100%;background:#c8ff39}.chart-labels{display:flex;justify-content:space-between;color:#666;font-size:8px;margin-top:8px}.floating-card{position:absolute;right:-35px;bottom:-28px;background:#fff;color:#171717;padding:15px 18px;border-radius:14px;display:flex;gap:10px;align-items:center;box-shadow:0 15px 35px #0003}.floating-card>span{background:#dfffa4;border-radius:50%;width:29px;height:29px;display:grid;place-items:center}.floating-card small{display:block;color:#888;font-size:8px;letter-spacing:.1em}.floating-card strong{font-size:12px}.marquee{border-block:1px solid #dedbd3;overflow:hidden;white-space:nowrap;padding:16px 0;font-size:11px;letter-spacing:.18em;font-weight:700}.marquee div{width:max-content;animation:scroll 24s linear infinite}.marquee span{margin:0 25px;color:#9bad31}@keyframes scroll{to{transform:translateX(-25%)}}.section{padding:120px 0}.two-col{display:grid;grid-template-columns:1fr 1fr;gap:100px}.intro h2,.section-head h2,.process-head h2,.why-layout h2,.pricing h2,.testimonials h2{font-size:clamp(38px,4.5vw,64px)}.intro-copy{padding-top:45px;color:#666}.intro-copy p{font-size:17px;margin:0 0 20px}.principles{display:flex;gap:8px;margin-top:35px}.principles span{border:1px solid #d2cfc7;border-radius:99px;padding:8px 14px;font-size:12px;font-weight:700}.services{background:#171717;color:#fff}.services .eyebrow{color:#999}.section-head{display:flex;justify-content:space-between;align-items:end;gap:50px;margin-bottom:55px}.section-head h2{max-width:680px}.section-head p{max-width:350px;color:#999}.service-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:#3a3a3a;border:1px solid #3a3a3a}.service-card{background:#171717;min-height:410px;padding:32px;position:relative;transition:.25s}.service-card:hover{background:#202020;transform:translateY(-3px)}.service-card.featured{background:#c8ff39;color:#171717}.service-card.dark{background:#262626}.service-num{font:700 12px "Space Grotesk";color:#888}.featured .service-num{color:#586400}.service-icon{font-size:32px;margin:40px 0 18px}.service-card h3{font:600 27px "Space Grotesk";letter-spacing:-.03em;margin:0 0 10px}.service-card p{color:#999;max-width:470px}.featured p{color:#394000}.service-card ul{padding:0;margin:20px 0 28px;list-style:none;color:#aaa;font-size:13px}.featured ul{color:#404600}.service-card li{margin:7px 0}.service-card li:before{content:"— ";opacity:.7}.service-card a{position:absolute;bottom:30px;font-size:12px;font-weight:700}.service-card a span{margin-left:8px}.process{background:#e8e5dd}.process-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:55px}.process-head p{max-width:350px;color:#666}.steps{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid #c9c5bc;border-left:1px solid #c9c5bc}.step{min-height:220px;padding:27px;border-right:1px solid #c9c5bc;border-bottom:1px solid #c9c5bc}.step span{font:700 12px "Space Grotesk";color:#999}.step h3{font:600 25px "Space Grotesk";margin:45px 0 8px}.step p{font-size:13px;color:#666;margin:0}.why{background:#c8ff39}.why-layout{display:grid;grid-template-columns:1fr 1fr;gap:100px}.why h2{max-width:600px}.why-grid{display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid #9bb33b}.why-grid div{padding:24px 0;border-bottom:1px solid #9bb33b}.why-grid div:nth-child(odd){padding-right:25px;border-right:1px solid #9bb33b}.why-grid div:nth-child(even){padding-left:25px}.why-grid b{font:600 19px "Space Grotesk"}.why-grid p{margin:5px 0 0;font-size:13px;color:#4f5b00}.pricing{background:#171717;color:#fff}.pricing-box{display:grid;grid-template-columns:1fr 1fr;gap:100px}.pricing h2{max-width:620px}.pricing-box>div:last-child{color:#aaa}.pricing-box strong{display:block;color:#fff;line-height:2;margin-top:25px}.testimonials{background:#f5f3ee}.quote-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:50px}.quote-grid blockquote{margin:0;padding:30px;border:1px solid #d8d5cc;border-radius:18px;font:600 19px "Space Grotesk";background:#fff}.quote-grid blockquote p{font:400 13px "DM Sans";color:#666;margin-top:20px}.quote-grid footer{font:600 10px "DM Sans";letter-spacing:.08em;color:#888}.testimonial-note{font-size:11px;color:#999;margin-top:20px}.contact{background:#dfffa4;padding:110px 0}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:100px}.contact h2{font-size:clamp(45px,5vw,70px)}.contact-grid>div>p{color:#4e570c;max-width:510px}.contact-points{display:grid;gap:10px;margin-top:35px;font-size:12px;font-weight:700}.contact-form{background:#171717;color:#fff;border-radius:24px;padding:32px}.contact-form label{display:block;font-size:11px;color:#aaa;margin-bottom:17px}.contact-form input,.contact-form select,.contact-form textarea{width:100%;margin-top:7px;border:1px solid #3a3a3a;background:#242424;color:#fff;border-radius:9px;padding:12px 13px;outline:none;resize:vertical}.contact-form input:focus,.contact-form textarea:focus,.contact-form select:focus{border-color:#c8ff39}.contact-form .btn{margin-top:4px}.form-status{font-size:12px;color:#c8ff39;margin:10px 0 0}.final-cta{background:#171717;color:#fff;text-align:center;padding:125px 0}.final-cta p{font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:#999}.final-cta h2{font-size:clamp(45px,6vw,80px);margin:25px 0 35px}.footer{background:#111;color:#fff;padding:50px 0 25px}.footer-inner{display:flex;justify-content:space-between;gap:40px}.footer p{color:#888;font-size:12px}.footer .logo{margin-bottom:15px}.copyright{border-top:1px solid #2b2b2b;margin-top:45px;padding-top:20px;color:#666;font-size:10px}@media(max-width:850px){.nav-links,.nav-cta{display:none}.menu-btn{display:block}.hero-grid,.two-col,.pricing-box,.contact-grid,.why-layout{grid-template-columns:1fr;gap:40px}.hero-grid{padding:70px 0}.hero-visual{min-height:400px}.section{padding:85px 0}.service-grid{grid-template-columns:1fr}.steps{grid-template-columns:1fr 1fr}.quote-grid{grid-template-columns:1fr}.section-head,.process-head{display:block}.section-head p,.process-head p{margin-top:20px}.intro-copy{padding-top:0}.why-layout{gap:45px}.footer-inner{display:block}.footer-inner>div+div{margin-top:25px}}@media(max-width:560px){.container{width:min(100% - 28px,1160px)}.hero h1{font-size:48px}.hero-visual{min-height:330px}.dashboard-card{padding:18px}.floating-card{right:-8px}.steps{grid-template-columns:1fr}.service-card{min-height:390px}.contact{padding:80px 0}.contact-form{padding:22px}}
+
+</style>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="logo" href="#top"><span>N</span>NexaDigital</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#process">How we work</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <a class="nav-cta" href="#contact">Let's talk <span>↗</span></a>
+      <button class="menu-btn" aria-label="Open menu">☰</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-grid container">
+        <div class="hero-copy">
+          <div class="eyebrow"><span></span> DIGITAL SOLUTIONS FOR SMALL BUSINESS</div>
+          <h1>Technology that <em>works</em> for your business.</h1>
+          <p class="hero-text">We help small businesses and individuals build a professional digital presence, attract customers, and simplify the way they work.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Let's have a coffee <span>☕</span></a>
+            <a class="btn btn-secondary" href="#services">Explore services <span>↓</span></a>
+          </div>
+          <div class="hero-note">
+            <div class="avatar-stack"><i></i><i></i><i></i></div>
+            <p>Practical solutions.<br><strong>No unnecessary complexity.</strong></p>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="orb orb-one"></div><div class="orb orb-two"></div>
+          <div class="dashboard-card">
+            <div class="dash-top"><span class="dot"></span><span class="mini-label">BUSINESS OVERVIEW</span><span>•••</span></div>
+            <div class="metric-row">
+              <div><small>ONLINE PRESENCE</small><strong>+42%</strong><div class="line"><b></b></div></div>
+              <div><small>NEW CUSTOMERS</small><strong>+28%</strong><div class="line"><b></b></div></div>
+            </div>
+            <div class="chart">
+              <div class="bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+              <div class="chart-labels"><span>JAN</span><span>MAR</span><span>MAY</span><span>JUL</span><span>SEP</span></div>
+            </div>
+            <div class="floating-card">
+              <span>✓</span><div><small>YOUR NEXT STEP</small><strong>Get discovered online</strong></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="marquee"><div>WEBSITES <span>✦</span> ONLINE PRESENCE <span>✦</span> BUSINESS APPLICATIONS <span>✦</span> IT SOLUTIONS <span>✦</span> WEBSITES <span>✦</span> ONLINE PRESENCE <span>✦</span></div></div>
+    </section>
+
+    <section class="section intro" id="about">
+      <div class="container two-col">
+        <div>
+          <div class="eyebrow">01 — ABOUT US</div>
+          <h2>Technology shouldn't make running a business <em>more complicated.</em></h2>
+        </div>
+        <div class="intro-copy">
+          <p>We provide practical IT and digital solutions designed to help small businesses and individuals establish their online presence, reach more customers, and improve their everyday operations.</p>
+          <p>Whether you need a professional website, better visibility on Google, support with social media, an online booking system, or a custom business application, we build around what you actually need.</p>
+          <div class="principles"><span>Simple</span><span>Useful</span><span>Focused</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-head">
+          <div><div class="eyebrow">02 — OUR SERVICES</div><h2>Digital solutions built <em>around your needs.</em></h2></div>
+          <p>From being online to working smarter, we focus on practical solutions that make a real difference.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card featured"><div class="service-num">01</div><div class="service-icon">◩</div><h3>Website Development</h3><p>Your professional home online — modern, responsive and built around your business.</p><ul><li>Business & company websites</li><li>Landing pages & contact forms</li><li>Responsive design & basic SEO</li></ul><a href="#contact">Build my website <span>↗</span></a></article>
+          <article class="service-card"><div class="service-num">02</div><div class="service-icon">⌖</div><h3>Google & Online Presence</h3><p>Help customers find the right information about your business online.</p><ul><li>Google Business Profile</li><li>Reviews & QR codes</li><li>Digital business cards</li></ul><a href="#contact">Improve my presence <span>↗</span></a></article>
+          <article class="service-card"><div class="service-num">03</div><div class="service-icon">◎</div><h3>Social Media Services</h3><p>Create a professional and consistent presence across relevant social platforms.</p><ul><li>Profile setup & optimization</li><li>Content planning</li><li>Posting strategy</li></ul><a href="#contact">Improve my social presence <span>↗</span></a></article>
+          <article class="service-card"><div class="service-num">04</div><div class="service-icon">◷</div><h3>Booking & Appointment Systems</h3><p>Make it easier for customers to request or schedule your services online.</p><ul><li>Online appointment booking</li><li>Availability management</li><li>Email notifications</li></ul><a href="#contact">Create a booking system <span>↗</span></a></article>
+          <article class="service-card"><div class="service-num">05</div><div class="service-icon">◇</div><h3>E-commerce Solutions</h3><p>Take your products or services online with a practical shopping experience.</p><ul><li>Online stores & catalogues</li><li>Payments & orders</li><li>Inventory & sales analytics</li></ul><a href="#contact">Take my business online <span>↗</span></a></article>
+          <article class="service-card"><div class="service-num">06</div><div class="service-icon">▥</div><h3>Business Applications & Dashboards</h3><p>Bring spreadsheets, data and everyday operations together in one place.</p><ul><li>Inventory & sales dashboards</li><li>Customer management tools</li><li>Reporting & custom web apps</li></ul><a href="#contact">Build a business solution <span>↗</span></a></article>
+          <article class="service-card"><div class="service-num">07</div><div class="service-icon">▱</div><h3>Mobile Applications</h3><p>When a website isn't enough, build a direct and personalized mobile experience.</p><ul><li>Customer applications</li><li>Booking applications</li><li>Internal business apps</li></ul><a href="#contact">Discuss a mobile app <span>↗</span></a></article>
+          <article class="service-card dark"><div class="service-num">08</div><div class="service-icon">✦</div><h3>Custom IT Solutions</h3><p>Have a specific problem? Let's understand it and explore the most practical technical solution.</p><ul><li>Process improvements</li><li>Digital product ideas</li><li>Custom technical solutions</li></ul><a href="#contact">Discuss my idea <span>↗</span></a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process" id="process">
+      <div class="container">
+        <div class="eyebrow">03 — HOW WE WORK</div>
+        <div class="process-head"><h2>From idea to <em>solution.</em></h2><p>We keep our process simple, transparent, and collaborative.</p></div>
+        <div class="steps">
+          <div class="step"><span>01</span><h3>Discover</h3><p>We start with a conversation about your business, goals, customers and challenges.</p></div>
+          <div class="step"><span>02</span><h3>Plan</h3><p>We define the right solution, features, priorities, timeline and next steps.</p></div>
+          <div class="step"><span>03</span><h3>Design & Build</h3><p>We develop with usability, performance, simplicity and your goals in mind.</p></div>
+          <div class="step"><span>04</span><h3>Review</h3><p>You see a working version, provide feedback, and we refine it.</p></div>
+          <div class="step"><span>05</span><h3>Launch</h3><p>Once approved, we deploy your solution for customers or your team.</p></div>
+          <div class="step"><span>06</span><h3>Support & Improve</h3><p>We can help with updates, maintenance and new requirements as you grow.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section why">
+      <div class="container">
+        <div class="eyebrow">04 — WHY WORK WITH US</div>
+        <div class="why-layout"><h2>Technology should solve problems — <em>not create them.</em></h2><div class="why-grid">
+          <div><b>Practical</b><p>Real business needs. Real value.</p></div>
+          <div><b>Simple</b><p>Easy to understand and use.</p></div>
+          <div><b>Flexible</b><p>Built around your business.</p></div>
+          <div><b>Scalable</b><p>Start small and grow when ready.</p></div>
+          <div><b>Personal</b><p>Direct communication throughout.</p></div>
+        </div></div>
+      </div>
+    </section>
+
+    <section class="section pricing">
+      <div class="container pricing-box">
+        <div><div class="eyebrow">05 — OUR APPROACH TO PRICING</div><h2>The right solution starts with the <em>right conversation.</em></h2></div>
+        <div><p>Every business has different requirements, so we don't force every customer into the same package.</p><p>We first understand your goals, requirements and budget, then recommend the most practical option.</p><strong>No unnecessary technology.<br>No confusing packages.<br>Just the solution your business needs.</strong></div>
+      </div>
+    </section>
+
+    <section class="section testimonials">
+      <div class="container">
+        <div class="eyebrow">06 — TESTIMONIALS</div><h2>What our clients <em>say.</em></h2>
+        <div class="quote-grid">
+          <blockquote>“A simple process from start to finish.”<p>They understood what we needed and turned our idea into a professional digital solution. The process was clear, straightforward, and easy to follow.</p><footer>— Client Name · Business / Company</footer></blockquote>
+          <blockquote>“Exactly what our business needed.”<p>We wanted to improve our online presence but didn't know where to start. They helped us understand what mattered and built a solution that actually works for us.</p><footer>— Client Name · Business / Company</footer></blockquote>
+          <blockquote>“Professional, responsive, and easy to work with.”<p>Communication was excellent throughout the project. They listened to our requirements, explained everything clearly, and delivered a solution that made our day-to-day work easier.</p><footer>— Client Name · Business / Company</footer></blockquote>
+        </div>
+        <p class="testimonial-note">Testimonials shown here are placeholders and should be replaced with genuine client feedback.</p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container contact-grid">
+        <div><div class="eyebrow">07 — LET'S HAVE A COFFEE ☕</div><h2>Have an idea?<br><em>Let's talk about it.</em></h2><p>Maybe you need a website. Maybe you want more customers to find you online. Maybe you're spending too much time managing bookings or business data manually.</p><p>Or maybe you simply have an idea and aren't sure where to start.</p><div class="contact-points"><span>01&nbsp; No complicated forms.</span><span>02&nbsp; No technical jargon.</span><span>03&nbsp; Just coffee, ideas & a conversation.</span></div></div>
+        <form id="contactForm" class="contact-form">
+          <label>Name<input name="name" required placeholder="Your name"></label>
+          <label>Business / Organization<input name="business" placeholder="Your business name"></label>
+          <label>Email<input name="email" type="email" required placeholder="you@example.com"></label>
+          <label>What can we help you with?<select name="service"><option>Website Development</option><option>Google & Online Presence</option><option>Social Media</option><option>Booking System</option><option>E-commerce</option><option>Business Dashboard</option><option>Mobile Application</option><option>Custom IT Solution</option><option>I'm not sure yet</option></select></label>
+          <label>Tell us a little about your idea<textarea name="message" rows="5" placeholder="Tell us about your business, your challenge, or what you'd like to build..."></textarea></label>
+          <button class="btn btn-primary" type="submit">Let's talk ☕ <span>↗</span></button>
+          <p id="formStatus" class="form-status"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="final-cta"><div class="container"><p>Your Business. Your Goals. Our Technology.</p><h2>Let's build something<br><em>that works for you.</em></h2><a class="btn btn-light" href="#contact">Let's have a coffee ☕</a></div></section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><div><a class="logo" href="#top"><span>N</span>NexaDigital</a><p>Practical digital solutions for small businesses and individuals.</p></div><div><p>Milan, Italy</p><p><a href="#contact">Contact</a> · <a href="#">LinkedIn</a> · <a href="#">Instagram</a></p></div></div><div class="container copyright">© 2026 NexaDigital. All rights reserved.</div></footer>
+  <script>
+const menuBtn = document.querySelector('.menu-btn');
+const navLinks = document.querySelector('.nav-links');
+
+menuBtn?.addEventListener('click', () => {
+  const open = navLinks.style.display === 'flex';
+  navLinks.style.display = open ? '' : 'flex';
+  if (!open) {
+    navLinks.style.position = 'absolute';
+    navLinks.style.top = '76px';
+    navLinks.style.left = '0';
+    navLinks.style.right = '0';
+    navLinks.style.padding = '22px';
+    navLinks.style.background = '#f5f3ee';
+    navLinks.style.flexDirection = 'column';
+    navLinks.style.borderBottom = '1px solid #dedbd3';
+  }
+});
+
+document.querySelectorAll('.nav-links a').forEach(link => {
+  link.addEventListener('click', () => {
+    if (window.innerWidth <= 850) navLinks.style.display = '';
+  });
+});
+
+document.getElementById('contactForm')?.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const form = e.currentTarget;
+  const status = document.getElementById('formStatus');
+  const data = Object.fromEntries(new FormData(form).entries());
+  status.textContent = `Thanks ${data.name}! Your message is ready to send. Connect this form to your email/backend before launch.`;
+  form.reset();
+});
+
+</script>
+</body>
+</html>
